@@ -1,6 +1,7 @@
 import "./Header.css"
+import PropTypes from "prop-types"
 
-export const Header = () => {
+export const Header = ({ setIsSearchShow }) => {
   return (
     <header>
       <div className="global-notification">
@@ -178,7 +179,10 @@ export const Header = () => {
                 <a href="account.html" className="header-account">
                   <i className="bi bi-person"></i>
                 </a>
-                <button className="search-button">
+                <button
+                  className="search-button"
+                  onClick={() => setIsSearchShow(true)}
+                >
                   <i className="bi bi-search"></i>
                 </button>
                 <a href="#">
@@ -197,4 +201,8 @@ export const Header = () => {
       </div>
     </header>
   )
+}
+
+Header.propTypes = {
+  setIsSearchShow: PropTypes.func
 }
