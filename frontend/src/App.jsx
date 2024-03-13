@@ -8,6 +8,8 @@ import CartPage from './pages/CartPage'
 import BlogPage from './pages/BlogPage'
 import BlogDetailPage from './pages/BlogDetailPage'
 import ProductDetailPage from './pages/ProductDetailPage'
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 function App() {
 
