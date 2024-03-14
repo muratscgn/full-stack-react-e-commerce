@@ -16,14 +16,14 @@ function App() {
   return (
     <>
       <React.Fragment>
-        <HomePage></HomePage>
+        {/* <HomePage></HomePage> */}
         {/* <ShopPage></ShopPage> */}
         {/* <ContactPage></ContactPage> */}
         {/* <AccountPage></AccountPage> */}
         {/* <CartPage></CartPage> */}
         {/* <BlogPage></BlogPage> */}
         {/* <BlogDetailPage></BlogDetailPage> */}
-        {/* <ProductDetailPage></ProductDetailPage> */}
+        <ProductDetailPage></ProductDetailPage>
       </React.Fragment>
     </>
   )
