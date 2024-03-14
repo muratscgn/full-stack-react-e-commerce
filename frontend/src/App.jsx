@@ -20,10 +20,10 @@ function App() {
         {/* <ShopPage></ShopPage> */}
         {/* <ContactPage></ContactPage> */}
         {/* <AccountPage></AccountPage> */}
-        {/* <CartPage></CartPage> */}
+        <CartPage></CartPage>
         {/* <BlogPage></BlogPage> */}
         {/* <BlogDetailPage></BlogDetailPage> */}
-        <ProductDetailPage></ProductDetailPage>
+        {/* <ProductDetailPage></ProductDetailPage> */}
       </React.Fragment>
     </>
   )
